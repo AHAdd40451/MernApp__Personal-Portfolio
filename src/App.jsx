@@ -8,7 +8,7 @@ import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
 import Portfolio from "./components/Portfolio/Portfolio"
 import Services from "./components/Services/Services";
-import Testimonials from "./components/Testimonials/Testimonials";
+// import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -32,7 +32,7 @@ function App() {
         <Experience />
         <Services />
         <Portfolio />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
         <Footer />
       </div>)
