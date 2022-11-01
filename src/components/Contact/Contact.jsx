@@ -5,10 +5,12 @@ import { BsWhatsapp } from 'react-icons/bs'
 import emailjs from '@emailjs/browser';
 
 
+
 import("./Contact.css");
 
 
 const Contact = () => {
+
 
   const form = useRef()
 
@@ -18,11 +20,15 @@ const Contact = () => {
     emailjs.sendForm('service_cep1stp', 'template_3js2yuu', form.current, 'hRumW46UfwWKjwG4u')
       .then(function (response) {
         console.log('SUCCESS!', response.status, response.text);
+        alert("Thankyou ! Your message has been send successfully")
       }, function (error) {
         console.log('FAILED...', error);
+        alert("Failed ")
       });
     e.target.reset()
   }
+
+
 
 
 
@@ -59,6 +65,7 @@ const Contact = () => {
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div>
+
     </section>
   )
 }
