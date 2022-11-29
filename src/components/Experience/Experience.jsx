@@ -150,7 +150,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icons' />
               <div className="main">
                 <h4>SOLIDITY</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Intermediate</small>
               </div>
 
             </article>
@@ -158,7 +158,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icons' />
               <div className="main">
                 <h4>ETHEREUM</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Intermediate</small>
               </div>
 
             </article>
@@ -167,7 +167,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icons' />
               <div className="main">
                 <h4>POLYGON</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Intermediate</small>
               </div>
 
 
@@ -176,7 +176,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icons' />
               <div className="main">
                 <h4>BINANCE SMARTCHAIN</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Intermediate</small>
               </div>
 
 
@@ -186,7 +186,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icons' />
               <div className="main">
                 <h4>AVALANCHE</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Intermediate</small>
               </div>
 
 

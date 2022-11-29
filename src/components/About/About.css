@@ -9,11 +9,11 @@
     width: 100%;
     aspect-ratio:1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
 display: grid;
 place-items: center;
 overflow: hidden;
-
+height: 37rem;
+background-color:var(--color-bg);
 
 }
 #more {display: none;}
@@ -39,6 +39,26 @@ overflow: hidden;
     height: 100%;
    
 }
+.about__me-data{
+    border-radius: 2rem;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    margin-top: 1rem;
+    background-color: var(--color-bg-variant);
+   
+}
+.single-info{
+    display: flex;
+    padding: 13px;
+    flex-wrap: wrap;
+    letter-spacing: 2px;
+
+
+}
+
 
 
 .about__cards{
@@ -85,6 +105,7 @@ overflow: hidden;
     color: var(--color-light);
 }
 
+    letter-spacing: 2px;
 
 
 /* ========================media queries for MEDIUM Devices======================= */
@@ -116,6 +137,8 @@ overflow: hidden;
         .about__me{
             width:65;
             margin: 0 auto 3rem;
+            width: 22rem;
+
         }
 
         .about__cards{
@@ -142,3 +165,5 @@ overflow: hidden;
         }
  
       }
+
+      

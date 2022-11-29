@@ -9,6 +9,7 @@ import Nav from "./components/Nav/Nav";
 import Portfolio from "./components/Portfolio/Portfolio"
 import Services from "./components/Services/Services";
 // import Testimonials from "./components/Testimonials/Testimonials";
+import Work from "./components/Work/Work";
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -31,7 +32,8 @@ function App() {
         <About />
         <Experience />
         <Services />
-        <Portfolio />
+        <Work />
+        {/* <Portfolio /> */}
         {/* <Testimonials /> */}
         <Contact />
         <Footer />

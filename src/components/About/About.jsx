@@ -31,10 +31,49 @@ const About = () => {
 
         <div className="about__me">
           <div className="about__me-image">
-            <img src="/images/me1.png" alt="about_Image" />
-
+            <img src="/images/me1.jpg" alt="about_Image" />
           </div>
+          <div className="about__me-data">
+            <address class="content-info">
+              <div class="row">
+                <div class="col-12 col-md-6 single-info">
+                  <span>Name:</span>
+                  <p>Abdul Ahad</p>
+                </div>
+                <div class="col-12 col-md-6 single-info">
+                  <span>DOB:</span>
+                  <p>2004-01-08</p>
+                </div>
+                <div class="col-12 col-md-6 single-info">
+                  <span> Age:</span>
+                  <p> 18</p>
+                </div>
+                <div class="col-12 col-md-6 single-info">
+                  <span> Email:</span>
+                  <p>
+                    <a href="mailto:emma@example.com"
+                    > abdulahad40451l@gmail.com </a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 single-info">
+                <span>From:</span>
+                <p>Karachi, Pakistan</p>
+              </div>
+
+
+
+            </address>
+          </div>
+
         </div>
+
+
+
+
+
 
         <div className="about__content">
           <div className="about__cards">
@@ -43,7 +82,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className='about__icon' />
               <h1>Experience</h1>
-              <small>3 Years Experience</small>
+              <small>2 Years Experience</small>
             </article>
 
 
