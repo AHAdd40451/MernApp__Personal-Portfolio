@@ -174,5 +174,21 @@ text-align: center;
     border-radius: 10px;
     background-color:var(--color-primary);
     top: -25px;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+  }
+  .p-code{
+    border-radius: 4px;
+    padding:4px;
+    color: black;
+    background-color: #fff;
+
+  }
+  .p-code:hover{
+    border-radius: 4px;
+    color: black;
+    background-color:lightskyblue;
+
   }
 }
