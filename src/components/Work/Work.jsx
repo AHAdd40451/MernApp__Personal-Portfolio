@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { AiFillEye, AiFillGithub } from 'react-icons/ai';
+import { AiFillEye } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 import { urlFor, client } from '../../client';
 import './Work.scss';
@@ -123,7 +123,7 @@ const Work = () => {
                     <div className="app__work-tag app__flex">
                       <p className="p-text">{work.tags[0]}</p>
                       <a href={work.codeLink} target="_blank" rel="noreferrer">
-                        <span className="p-code"><AiFillGithub /> Github</span></a>
+                        <span className="p-code">Github</span></a>
 
                     </div>
 
