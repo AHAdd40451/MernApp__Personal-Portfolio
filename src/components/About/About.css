@@ -136,9 +136,11 @@ background-color:var(--color-bg);
         .about__me{
             width:65;
             margin: 0 auto 3rem;
-            width: 22rem;
+            width: 20rem;
 
         }
+    
+        
 
         .about__cards{
             grid-template-columns: 1fr 1fr;
@@ -162,7 +164,11 @@ background-color:var(--color-bg);
             grid-template-columns: 1fr 1fr;
             gap: 1rem;
         }
- 
+        .about__container{
+     
+            width: 15rem;
+        }
+        
       }
 
       
