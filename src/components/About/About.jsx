@@ -34,7 +34,7 @@ const About = () => {
 
         <h2>About me</h2>
 
-        <div className="container">
+        <div className="container about__container">
 
           <div className="about__me">
             <div className="about__me-image">
