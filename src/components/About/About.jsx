@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import { MdCastForEducation } from "react-icons/md";
 
-import("./About.css");
+import("./Aboutnew.css");
 
 const About = () => {
   const myFunction = () => {
@@ -35,7 +35,11 @@ const About = () => {
         <div className="container about__container">
           <div className="about__me">
             <div className="about__me-image">
-              <img src="/images/me1.jpg" alt="about_Image" />
+              <img
+                src="/images/me1.jpg"
+                alt="about_Image"
+                className="about_Image"
+              />
             </div>
             <div className="about__me-data">
               <address className="content-info">
@@ -72,12 +76,12 @@ const About = () => {
                 <h1>Experience</h1>
                 <small>2 Years Experience</small>
               </article>
-
+              {/* 
               <article className="about__card">
                 <MdCastForEducation className="about__icon" />
                 <h1>Education</h1>
-                <small>I Am learning BSCS </small>
-              </article>
+                <small>I am learning BSCS at P.A.F Kiet University</small>
+              </article> */}
             </div>
 
             <p className="para">
