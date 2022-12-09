@@ -76,7 +76,7 @@ const About = () => {
               <article className="about__card">
                 <MdCastForEducation className="about__icon" />
                 <h1>Education</h1>
-                <small>I Am learning BSCS At PAF KIET UNIVERSITY</small>
+                <small>I Am learning BSCS </small>
               </article>
             </div>
 
