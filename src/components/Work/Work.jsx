@@ -107,20 +107,14 @@ const Work = () => {
                         }}
                         className="app__work-hover app__flex"
                       >
-                        <a
-                          href={work.projectLink}
-                          target="_blank"
-                          rel="noreferrer"
+                        <motion.div
+                          whileInView={{ scale: [0, 1] }}
+                          whileHover={{ scale: [1, 0.9] }}
+                          transition={{ duration: 0.25 }}
+                          className="app__flex"
                         >
-                          <motion.div
-                            whileInView={{ scale: [0, 1] }}
-                            whileHover={{ scale: [1, 0.9] }}
-                            transition={{ duration: 0.25 }}
-                            className="app__flex"
-                          >
-                            <AiFillEye />
-                          </motion.div>
-                        </a>
+                          <AiFillEye />
+                        </motion.div>
                       </motion.div>
                     </div>
                   </a>
@@ -138,7 +132,7 @@ const Work = () => {
                       </a> */}
                     </div>
                   </div>
-                  <a
+                  {/* <a
                     href={work.codeLink}
                     className="p-code"
                     target="_blank"
@@ -153,7 +147,7 @@ const Work = () => {
                     rel="noreferrer"
                   >
                     Live Demo
-                  </a>
+                  </a> */}
                 </div>
               ))}
             </motion.div>

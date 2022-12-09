@@ -38,25 +38,25 @@ const About = () => {
               <img src="/images/me1.jpg" alt="about_Image" />
             </div>
             <div className="about__me-data">
-              <address class="content-info">
-                <div class="row">
-                  <div class="span-class">
+              <address className="content-info">
+                <div className="row">
+                  <div className="span-class">
                     <span className="head-d">Name :</span>
                     <p>Abdul Ahad</p>
                   </div>
-                  <div class="span-class">
+                  <div className="span-class">
                     <span className="head-d">D.O.B :</span>
                     <p>2004-01-08</p>
                   </div>
-                  <div class="span-class">
+                  <div className="span-class">
                     <span className="head-d"> Age :</span>
                     <p> 18</p>
                   </div>
-                  <div class="span-class">
+                  <div className="span-class">
                     <span className="head-d"> Religion :</span>
                     <p>Islam</p>
                   </div>
-                  <div class="span-class">
+                  <div className="span-class">
                     <span className="head-d">From :</span>
                     <p>Karachi, Pakistan</p>
                   </div>
@@ -80,7 +80,7 @@ const About = () => {
               </article>
             </div>
 
-            <p class="para">
+            <p className="para">
               {" "}
               Hello , I am a MERN stack Web Developer I have a clear, logical
               mind with a practical approach to problem-solving and a drive to
