@@ -4,19 +4,45 @@
     gap: 15%;
 }
 
+.span-class{
+    display: flex;
+    padding: 1rem;
+    width: fit-content;
+    cursor: default;
+  
+}
 
+.head-d{
+    margin-right:1rem;
+}
 .about__me{
     width: 100%;
     aspect-ratio:1/1;
     border-radius: 2rem;
 display: grid;
 place-items: center;
-overflow: hidden;
-height: 37rem;
+height: fit-content;
 background-color:var(--color-bg);
+height: 40rem;
+}
+#more {display: none;
 
 }
-#more {display: none;}
+#myBtn{
+    background-color: var(--color-primary);
+    color: black;
+    padding: 0.2rem;
+    border-radius: 10px;
+  cursor: pointer;
+
+}
+#myBtn:hover{
+    background-color:white;
+    color: black;
+    padding: 0.2rem;
+    border-radius: 10px;
+  
+}
 
 .para{
     border: 1rem solid transparent;
@@ -26,8 +52,6 @@ background-color:var(--color-bg);
        text-transform: capitalize;
        text-rendering: optimizeSpeed;
        font-weight:bolder ;
-
-
 }
 
 .about__me-image{
@@ -36,8 +60,20 @@ background-color:var(--color-bg);
     display: block;
     width: 100%;
     object-fit: cover;
-    height: 100%;
-   
+}
+
+.know{
+    background-color: var(--color-primary);
+    color: black;
+    padding: 0.2rem;
+    border-radius: 10px;
+    cursor: default;
+}
+.know:hover{
+    background-color: white;
+    color: black;
+    padding: 0.2rem;
+    border-radius: 10px;
 }
 .about__me-data{
     border-radius: 2rem;
@@ -58,7 +94,9 @@ background-color:var(--color-bg);
 
 
 }
-
+.row{
+    margin: 1rem;
+}
 
 
 .about__cards{

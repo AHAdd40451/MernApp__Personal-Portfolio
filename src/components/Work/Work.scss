@@ -178,17 +178,21 @@ text-align: center;
     flex-direction: row;
     gap: 1rem;
   }
-  .p-code{
-    border-radius: 4px;
-    padding:4px;
-    color: black;
-    background-color: #fff;
 
-  }
-  .p-code:hover{
-    border-radius: 4px;
-    color: black;
-    background-color:lightskyblue;
+}
 
-  }
+.p-code{
+  border-radius: 4px;
+  padding:4px;
+  color: black;
+  background-color: #fff;
+  margin-left: 0.8rem;
+
+
+}
+.p-code:hover{
+  border-radius: 4px;
+  color: black;
+  background-color:lightskyblue;
+
 }

@@ -28,6 +28,8 @@ function App() {
     !loading && (
       <div>
         <Header />
+
+
         <Nav />
         <About />
         <Experience />

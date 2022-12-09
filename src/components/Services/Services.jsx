@@ -144,7 +144,7 @@ const Services = () => {
             </ul>
           </article>
 
-          <article className='service'>
+          {/* <article className='service'>
             <div className='service__head'>
               <h3 className=''>BLOCKCHAIN
 
@@ -186,7 +186,7 @@ const Services = () => {
                 <p> Custom cryptocurrency, blockchain, NFT app development, and more.</p>
               </li>
             </ul>
-          </article>
+          </article> */}
 
 
 
