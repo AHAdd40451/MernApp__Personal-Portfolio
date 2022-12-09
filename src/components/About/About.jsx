@@ -1,8 +1,8 @@
 import React from "react";
-// import { FaAward } from "react-icons/fa";
+import { FaAward } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-// import { MdCastForEducation } from "react-icons/md";
+import { MdCastForEducation } from "react-icons/md";
 
 import("./Aboutnew.css");
 
@@ -71,17 +71,17 @@ const About = () => {
 
           <div className="about__content">
             <div className="about__cards">
-              {/* <article className="about__card">
+              <article className="about__card">
                 <FaAward className="about__icon" />
                 <h1>Experience</h1>
                 <small>2 Years Experience</small>
-              </article> */}
-              {/* 
+              </article>
+
               <article className="about__card">
                 <MdCastForEducation className="about__icon" />
                 <h1>Education</h1>
                 <small>I am learning BSCS at P.A.F Kiet University</small>
-              </article> */}
+              </article>
             </div>
 
             <p className="para">

@@ -178,6 +178,10 @@
     .about__content p {
       margin: 1.5rem 0;
     }
+    .about__me-data {
+
+        margin-top: 4rem;
+    }
   }
   
   @media screen and (max-width: 420px) {
