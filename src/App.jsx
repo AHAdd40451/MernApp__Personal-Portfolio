@@ -11,19 +11,18 @@ import Services from "./components/Services/Services";
 import Work from "./components/Work/Work";
 
 function App() {
-  // const [loading, setLoading] = useState(true)
-  // const mainConatinerLoader = document.getElementById("mainConatinerLoader");
-  // const spinner = document.getElementById("mainLoader");
+  const [loading, setLoading] = useState(true);
+  const mainConatinerLoader = document.getElementById("mainConatinerLoader");
+  const spinner = document.getElementById("mainLoader");
 
-  // if (loading) {
-  //   setTimeout(() => {
-  //     spinner.style.display = "none"
-  //     mainConatinerLoader.style.display = "none"
+  if (loading) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      mainConatinerLoader.style.display = "none";
 
-  //     setLoading(false)
-  //   }, 5000);
-  // }
-  let loading = false;
+      setLoading(false);
+    }, 5000);
+  }
   return (
     !loading && (
       <div>
