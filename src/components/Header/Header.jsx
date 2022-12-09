@@ -1,7 +1,7 @@
 import React from "react";
 import CTA from "./CTA";
 import HeadersSocial from "./HeadersSocial";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import("./Header.css");
 const Header = () => {
   return (
@@ -19,11 +19,9 @@ const Header = () => {
 
             <div className="me">
               <img src="/images/me2.png" alt="me" />
-
             </div>
           </motion.div>
         </div>
-
       </header>
     </section>
   );
