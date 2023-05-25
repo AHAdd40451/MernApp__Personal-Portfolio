@@ -2,10 +2,12 @@ import React from "react";
 import CTA from "./CTA";
 import HeadersSocial from "./HeadersSocial";
 import { motion } from "framer-motion";
+
+
 import("./Header.css");
 const Header = () => {
   return (
-    <section id="header">
+    <section id="header" class="headernone">
       <header>
         <div className="container header__container">
           <motion.div
@@ -20,7 +22,7 @@ const Header = () => {
             <HeadersSocial />
 
             <div className="me">
-              <img src="/images/me2.jpg" alt="me" />
+              <img src="https://www.linkpicture.com/q/346134172_638461688320682_5425039504288301608_n-1.jpg" alt="me" />
             </div>
           </motion.div>
         </div>

@@ -29,6 +29,8 @@ header {
   justify-content: center;
 }
 
+
+
 /* ========SOical Handlers============ */
 
 .header__socials {
@@ -119,6 +121,9 @@ header{
 }
   
 
+.headernone{
+  margin-top: 2rem !important;
+}
 
 
 
