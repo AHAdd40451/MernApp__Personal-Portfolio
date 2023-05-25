@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 37rem;
   overflow: hidden;
  
 
@@ -49,15 +49,19 @@ header {
 }
 
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
+  background: transparent;
   width: 22rem;
-  height: 15rem;
+  height: 100%;
   position: absolute;
   left: calc(50% - 13rem);
-  margin-top: 4rem;
+  margin-top: 2rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+.me img{
+  border-radius: 12rem 12rem 0 0;
+
 }
 
 
@@ -102,9 +106,9 @@ header{
 
 @media screen and (max-width:480px){
  .me{
-  background: linear-gradient(var(--color-primary), transparent);
+  background: transparent;
   width: 17rem;
-  height: 14rem;
+  height: 80%;
   position: absolute;
   left: calc(55% - 11rem);
   margin-top: 4rem;
