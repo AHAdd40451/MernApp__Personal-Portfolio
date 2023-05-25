@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { FaAward } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -7,21 +8,7 @@ import { MdCastForEducation } from "react-icons/md";
 import("./Aboutnew.css");
 
 const About = () => {
-  const myFunction = () => {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
 
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "GET TO KNOW ME FROM MY STARTING";
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read less";
-      moreText.style.display = "inline";
-    }
-  };
   return (
     <motion.div
       whileInView={{ x: [-100, 0], opacity: [0, 1] }}
