@@ -34,7 +34,7 @@ const About = () => {
               <article className="about__card">
                 <FaAward className="about__icon" />
                 <h1>Experience</h1>
-                <small>3 Years Experience</small>
+                <small>2 Years Experience</small>
               </article>
 
               <article className="about__card">
@@ -51,7 +51,7 @@ const About = () => {
             </div>
 
             <p className="para">
-              Hi , I'm a Full stack developer with 3 years of experience.
+              Hi , I'm a Full stack developer with 2 years of experience.
               Currently , pursuing my studies at MAJU university and I have
               strong knowledge of Javascript & Typescript and experience in
               building websites with MERN Stack (E-Commerce) . I mostly worked
