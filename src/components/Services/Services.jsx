@@ -14,57 +14,53 @@ const Services = () => {
 
 
         <h5>What I Offer</h5>
-        <h2>Services</h2>
+        <h2>PERKS</h2>
         <div className='container services__container'>
 
 
           <article className='service'>
             <div className='service__head'>
-              <h3 className=''>MERN
+              <h3 className=''>PERKS
 
               </h3>
             </div>
 
             <ul className='service__list'>
-              <li><BiCheck className='service__list-icon' />
-                <p>Experience building websites with MERN Stack (E-commerce)
-                </p>
+              <li>
+                <BiCheck className='service__list-icon' />
+                <p>Comprehensive end-to-end development services</p>
               </li>
-              <li><BiCheck className='service__list-icon' />
-                <p>in depth knowledge of MongoDB, NodeJS, Express and React.
-                </p>
+              <li>
+                <BiCheck className='service__list-icon' />
+                <p>Seamless integration of front-end and back-end functionalities</p>
               </li>
-              <li><BiCheck className='service__list-icon' />
-                <p>Creating RESTful services with Node.js.</p>
+              <li>
+                <BiCheck className='service__list-icon' />
+                <p>Customized and visually appealing user interfaces</p>
               </li>
-              <li><BiCheck className='service__list-icon' />
-                <p>Familiarity with RESTful APIs</p>
-              </li>
-              <li><BiCheck className='service__list-icon' />
-                <p> modern authorization mechanisms, such as JSON Web Token
-                </p>
-              </li>
-              <li><BiCheck className='service__list-icon' />
-                <p>Working Experience with popular React.js workflows (such as Flux or Redux)
-                </p>
-              </li>
-              <li><BiCheck className='service__list-icon' />
-                <p>Troubleshooting and resolving varying levels of technical issues.</p>
-              </li>
-              <li><BiCheck className='service__list-icon' />
-                <p>Designing and developing enhancements on new and existing applications using Node.js and other scripting environments.</p>
-              </li>
-              <li><BiCheck className='service__list-icon' />
-                <p>Managing the interchange of data between servers and users.
-                </p>
+              <li>
+                <BiCheck className='service__list-icon' />
+                <p>Reliable and secure applications with robust database management</p>
               </li>
 
-
-
-
-
-
+              <li>
+                <BiCheck className='service__list-icon' />
+                <p>Rigorous testing and debugging for high-quality code</p>
+              </li>
+              <li>
+                <BiCheck className='service__list-icon' />
+                <p>Performance-optimized applications for faster user experiences</p>
+              </li>
+              <li>
+                <BiCheck className='service__list-icon' />
+                <p>Timely project delivery and efficient deployment processes</p>
+              </li>
+              <li>
+                <BiCheck className='service__list-icon' />
+                <p>Ongoing support and maintenance for long-term success</p>
+              </li>
             </ul>
+
           </article>
 
           {/* <article className='service'>

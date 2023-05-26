@@ -14,32 +14,35 @@ const Nav = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'experience', 'services', 'work', 'contact']; // Add the section IDs here
+      const sections = ['header', 'about', 'experience', 'services', 'work', 'contact'];
+      const scrollPosition = window.scrollY + 200;
 
-      const scrollPosition = window.scrollY + 200; // Adjust the value as needed
-
-      for (let i = sections.length - 1; i >= 0; i--) {
-        const section = sections[i];
-        const element = document.getElementById(section);
-        if (element) {
-          const sectionTop = element.offsetTop;
-          const sectionBottom = sectionTop + element.offsetHeight;
-          if (scrollPosition >= sectionTop && scrollPosition <= sectionBottom) {
-            setActiveSection(section);
-            setActiveNav(`#${section}`);
-            break;
+      const activeElement = sections
+        .map(section => ({
+          id: section,
+          element: document.getElementById(section),
+        }))
+        .find(({ element }) => {
+          if (element) {
+            const { offsetTop, offsetHeight } = element;
+            const sectionTop = offsetTop;
+            const sectionBottom = sectionTop + offsetHeight;
+            return scrollPosition >= sectionTop && scrollPosition <= sectionBottom;
           }
-        }
+          return false;
+        });
+
+      if (activeElement) {
+        setActiveSection(activeElement.id);
+        setActiveNav(`#${activeElement.id}`);
       }
     };
 
     window.addEventListener('scroll', handleScroll);
-
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
   return (
     <nav>
       <a href="#header" onClick={() => setActiveNav('#header')} className={activeNav === '#header' ? 'active' : ''}>

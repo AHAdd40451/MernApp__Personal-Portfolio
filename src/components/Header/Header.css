@@ -110,7 +110,7 @@ header{
  .me{
   background: transparent;
   width: 17rem;
-  height: 80%;
+  height: fit-content;
   position: absolute;
   left: calc(55% - 11rem);
   margin-top: 4rem;

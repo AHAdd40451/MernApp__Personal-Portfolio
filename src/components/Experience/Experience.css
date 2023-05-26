@@ -3,16 +3,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 .experience__container > div{
     background: var(--color-bg-variant);
-    padding:2.4rem 5rem;
+    padding:2.4rem 3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    transition: var(--transition);
-
-
+    transition: var(--transition);    height: 100%;
 }
 
 
@@ -36,6 +36,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
+    column-gap: 15px;
+
 }
 
 .experience__details{
@@ -63,7 +65,8 @@
     .experience__container > div{
         width: 86%;   
         margin: 0 auto;
-        font-size: 0.7rem
+        padding:  1rem !important;
+        font-size: 1rem
      }   
 
     }
@@ -77,7 +80,7 @@
 
 }.experience__container > div{
     width: 86%;
-    padding:  1rem;
+    padding:  2rem !important;
 }
     }
 /*     

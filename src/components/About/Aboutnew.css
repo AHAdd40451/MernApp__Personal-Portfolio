@@ -66,6 +66,8 @@
     text-transform: capitalize;
     text-rendering: optimizeSpeed;
     font-weight:300 ;
+    word-spacing: 4px;
+
   }
   
   .about__me-image {

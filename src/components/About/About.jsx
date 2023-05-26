@@ -8,14 +8,13 @@ import { MdCastForEducation } from "react-icons/md";
 import("./Aboutnew.css");
 
 const About = () => {
-
   return (
     <motion.div
       whileInView={{ x: [-100, 0], opacity: [0, 1] }}
       transition={{ duration: 0.5 }}
     >
       <section id="about">
-        <h5>Get To Know Me</h5>
+        <h5>Who's this guy?</h5>
 
         <h2>About me</h2>
 
@@ -52,24 +51,21 @@ const About = () => {
             </div>
 
             <p className="para">
-
-              Hi there! My name is Abdul Ahad and I'm a Full stack
-              developer with 3 years of experience. Currently , pursuing my
-              studies at MAJU university and I have strong knowledge of
-              Javascript & Typescript and experience in building websites with
-              MERN Stack (E-Commerce) . I mostly worked with Modern
-              Authorization Mechanisms, Such As JSON Web Token. I have Working
-              Experience With Popular React.js Workflows (Such As Flux Or Redux)
-              and Awesome Familiarity With RESTful APIs. Whether it's building a
-              sleek frontend or optimizing backend functionality, I'm always up
-              for a challenge. If you're looking for a skilled and passionate
-              Developer to help take your project to the next level, then look
-              no further! Let's join forces and create something amazing
-              together.
+              Hi , I'm a Full stack developer with 3 years of experience.
+              Currently , pursuing my studies at MAJU university and I have
+              strong knowledge of Javascript & Typescript and experience in
+              building websites with MERN Stack (E-Commerce) . I mostly worked
+              with Modern Authorization Mechanisms, Such As JSON Web Token. I
+              have Working Experience With Popular React.js Workflows (Such As
+              Flux Or Redux) and Awesome Familiarity With RESTful APIs. Whether
+              it's building a sleek frontend or optimizing backend
+              functionality, I'm always up for a challenge. If you're looking
+              for a skilled and passionate Developer to elevate your project to new
+              heights,then your search ends here! Let's collaborate and create
+              something truly remarkable together.
               <br /> Thanks & Regards
               <br />
               ABDUL AHAD
-
             </p>
             <a href="#contact" className="btn btn-primary">
               Let's Talk

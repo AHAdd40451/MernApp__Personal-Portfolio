@@ -3,8 +3,6 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
-
-
 }
 
 .contact__options{
@@ -52,7 +50,6 @@ form{
 
 input,textarea{
     color: aliceblue;
-    width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
     background:transparent;
@@ -69,12 +66,22 @@ input,textarea{
     grid-template-columns: 1fr;
     gap: 2rem;
  }
+ .container.contact__container{
+    width: 90%;
+  
+}
+
     }
  
+
         
         /* ========================media queries for SMALL Devices======================= */
  
        
          @media screen and (max-width:600px){
 
+            .form{
+                max-width: 33rem;
+    width: 100%;
+            }
                }
