@@ -41,19 +41,13 @@ const About = () => {
                 <MdCastForEducation className="about__icon" />
                 <h1>Education</h1>
                 <small>
-                  I am persuing my studies at{" "}
-                  <a href="https://jinnah.edu/">
-                    {" "}
-                    Muhammad Ali Jinnah University
-                  </a>
-                </small>
+                  I completed my Intermediate in Engineering from BIEK in 2022</small>
               </article>
             </div>
 
             <p className="para">
               Hi , I'm a Full stack developer with 2 years of experience.
-              Currently , pursuing my studies at MAJU university and I have
-              strong knowledge of Javascript & Typescript and experience in
+              Currently , I havestrong knowledge of Javascript & Typescript and experience in
               building websites with MERN Stack (E-Commerce) . I mostly worked
               with Modern Authorization Mechanisms, Such As JSON Web Token. I
               have Working Experience With Popular React.js Workflows (Such As
