@@ -22,7 +22,7 @@ const Header = () => {
             <HeadersSocial />
 
             <div className="me">
-              <img src="https://www.linkpicture.com/q/346134172_638461688320682_5425039504288301608_n-1.jpg" alt="me" />
+              <img src="https://www.linkpicture.com/q/WhatsApp-Image-2023-09-02-at-11.19.01-AM.jpeg" alt="me" />
             </div>
           </motion.div>
         </div>
