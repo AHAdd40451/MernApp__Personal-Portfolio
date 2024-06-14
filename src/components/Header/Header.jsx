@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import CTA from "./CTA";
 import HeadersSocial from "./HeadersSocial";
 import { motion } from "framer-motion";
-
+import { client } from "../../client";
 
 import("./Header.css");
 const Header = () => {
+  const [works, setWorks] = useState();
+
+  useEffect(() => {
+    const query = '*[_type == "contact"]';
+
+    client.fetch(query).then((data) => {
+      setWorks(data);
+    });
+  }, []);
+
+  console.log(works, "works");
+
   return (
     <section id="header" class="headernone">
       <header>
@@ -14,15 +26,19 @@ const Header = () => {
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
           >
-            <h1 style={{
-              marginBottom: "-12px"
-            }}>Abdul Ahad</h1>
+            <h1
+              style={{
+                marginBottom: "-12px",
+              }}
+            >
+              Abdul Ahad
+            </h1>
             <h5 className="text-light">" Full Stack Developer "</h5>
-            <CTA />
+            <CTA works={works && works} />
             <HeadersSocial />
 
             <div className="me">
-              <img src="https://www.linkpicture.com/q/WhatsApp-Image-2023-09-02-at-11.19.01-AM.jpeg" alt="me" />
+              <img src="/images/me2.jpg" alt="me" />
             </div>
           </motion.div>
         </div>

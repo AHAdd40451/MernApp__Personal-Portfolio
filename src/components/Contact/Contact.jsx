@@ -48,7 +48,6 @@ const Contact = () => {
               <BsWhatsapp className="contact__option-icon" />
               <h4>WhatsApp</h4>
               <h5>
-                {" "}
                 <a href="https://www.google.com/url?q=https://wa.me/message/QYPEEWLZOUERL1&sa=D&source=apps-viewer-frontend&ust=1670693978861668&usg=AOvVaw3lM3UwsynlPdkDxawcZl83&hl=en">
                   03192321949
                 </a>

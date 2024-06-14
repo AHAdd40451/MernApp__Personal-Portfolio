@@ -18,7 +18,7 @@ const About = () => {
 
         <h2>About me</h2>
 
-        <div className="container about__container">
+        <div className="container about__container ">
           <div className="about__me">
             <div className="about__me-image">
               <img
@@ -31,35 +31,29 @@ const About = () => {
 
           <div className="about__content">
             <div className="about__cards">
-              <article className="about__card">
+              <article className="about__card flex  flex-col items-center">
                 <FaAward className="about__icon" />
                 <h1>Experience</h1>
-                <small>2 Years Experience</small>
+                <small>3 Years Experience</small>
               </article>
 
-              <article className="about__card">
+              <article className="about__card flex  flex-col items-center">
                 <MdCastForEducation className="about__icon" />
                 <h1>Education</h1>
-                <small>
-                  I completed my Intermediate in Engineering from BIEK in 2022</small>
+                <small>Undergraduate at PAF-KIET University in Computer Science</small>
               </article>
             </div>
 
             <p className="para">
-              Hi , I'm a Full stack developer with 2 years of experience.
-              Currently , I havestrong knowledge of Javascript & Typescript and experience in
-              building websites with MERN Stack (E-Commerce) . I mostly worked
-              with Modern Authorization Mechanisms, Such As JSON Web Token. I
-              have Working Experience With Popular React.js Workflows (Such As
-              Flux Or Redux) and Awesome Familiarity With RESTful APIs. Whether
-              it's building a sleek frontend or optimizing backend
-              functionality, I'm always up for a challenge. If you're looking
-              for a skilled and passionate Developer to elevate your project to new
-              heights,then your search ends here! Let's collaborate and create
-              something truly remarkable together.
-              <br /> Thanks & Regards
-              <br />
-              ABDUL AHAD
+              Full Stack Developer with 3 years of experience in designing,
+              developing, testing, and deploying web applications. Known for
+              tackling new problems and taking responsibilities conscientiously.
+              A flexible and motivated team member. Whether it's building a
+              sleek frontend or optimizing backend functionality, I'm always up
+              for a challenge. If you're looking for a skilled and passionate
+              Developer to elevate your project to new heights,then your search
+              ends here! Let's collaborate and create something truly remarkable
+              together.
             </p>
             <a href="#contact" className="btn btn-primary">
               Let's Talk
