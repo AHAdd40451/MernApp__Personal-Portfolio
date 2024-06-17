@@ -21,8 +21,8 @@ const Timeline2 = () => {
               borderRadius: "1rem",
             }}
             contentArrowStyle={{ borderRight: "7px solid  #282b30" }}
-            date="September , 2023 - present"
-            iconStyle={{ background: "#282b30", color: "#fff" }}
+            date="Sep 2023 - Present "
+            iconStyle={{ background: "#4db5ff", color: "#fff" }}
             // icon={<WorkIcon />}
           >
             <div className="text-md text-white-500 ">
@@ -69,70 +69,34 @@ const Timeline2 = () => {
                   Ecommerce Project For Spanish Client Using Next Typesctipt
                   Nest
                 </p>
-              </p>
-            </div>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="May,2023 - August,2023"
-            iconStyle={{ background: "#4db5ff", color: "#fff" }}
-            contentStyle={{
-              background: "#282b30",
-              color: "#fff",
-              borderRadius: "1rem",
-            }}
-            contentArrowStyle={{ borderRight: "7px solid  #282b30" }}
-          >
-            <div className="text-md text-white-500 ">
-              <div className="flex items-center gap-2">
-                <label className="font-medium text-[#4db5ff]">Next Bash</label>
-              </div>
-              <span className=" text-sm relative top-2">
-                Mern Stack Developer | SaaS | Remote
-              </span>
-            </div>
-            <div className="mt-2 text-white-700 ">
-              <p className="flex gap-[0.2rem] flex-col">
                 <p>
                   <a
                     href="https://www.docda.ai/"
                     target="_blank"
-                    className="pr-1"
+                    className="px-2"
                   >
-                    Docda:
-                  </a>{" "}
-                  Streamlined doctor appointment scheduling with a user-friendly
-                  interface.
+                    - Docda:
+                  </a>
+                  Designed and integrated the Frontend of a Doctor Appointment
+                  PWA using React and Google Maps APIs.
                 </p>
-
                 <p>
                   <a
                     href="https://app.behobbyist.com/"
                     target="_blank"
-                    className="pr-1"
+                    className="px-2"
                   >
-                    Behobbyist:
+                    - Behobbyist:
                   </a>
-                  Dynamic social media platform akin to Facebook with high user
-                  engagement.
-                </p>
-                <p>
-                  <a
-                    href="https://portal.safespace.systems/"
-                    target="_blank"
-                    className="pr-1"
-                  >
-                    Safespace:
-                  </a>
-                  Focus on secure profile management with strong data
-                  encryption.
+                  Built a social platform website's Frontend and Backend
+                  utilizing the MERN stack.
                 </p>
               </p>
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Dexember,2022 - April,2023"
+            date="Jan 2022 - Mar 2023 · 1 yr 3 mos"
             iconStyle={{ background: "#282b30", color: "#fff" }}
             contentStyle={{
               background: "#282b30",
@@ -193,7 +157,7 @@ const Timeline2 = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Ausgust,2022 - November,2022"
+            date="Aug 2022 - Nov 2022 · 4 mos"
             iconStyle={{ background: "#4db5ff", color: "#fff" }}
             contentStyle={{
               background: "#282b30",
@@ -227,8 +191,10 @@ const Timeline2 = () => {
                   </a>
                   gateway for secure transactions.
                 </p>
-
-                <p>- Added Authentication System</p>
+              </p>
+              <p>
+                - Implemented authentication and state management flow using
+                Redux and React.
               </p>
             </div>
           </VerticalTimelineElement>

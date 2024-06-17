@@ -13,11 +13,8 @@ const HeadersSocial = () => {
       >
         <BsLinkedin fontSize={"2rem"} />
       </a>
-      <a href="https://github.com" target="_blank" rel="noreferrer">
+      <a href="https://github.com/AHAdd40451" target="_blank" rel="noreferrer">
         <FaGithub fontSize={"2rem"} />
-      </a>
-      <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-        <AiFillFacebook fontSize={"2rem"} />
       </a>
     </div>
   );
