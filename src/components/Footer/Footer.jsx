@@ -35,7 +35,6 @@ const Footer = () => {
         </ul>
 
         <div className="footer__socials">
-      
           <a href="https://github.com/AHAdd40451">
             <BsGithub />
           </a>
@@ -45,7 +44,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__copyright">
-        <small>&copy; Abdul Ahad. All rights reserved.</small>
+        {/* <small>&copy; Abdul Ahad. All rights reserved.</small> */}
       </div>
     </footer>
   );
